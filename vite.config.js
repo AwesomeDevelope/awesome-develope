@@ -6,7 +6,7 @@ import injectHTML from './plugin-html-inject';
 
 export default defineConfig({
   publicDir: 'public',
-  root: 'src',
+  root: './',
   build: {
     rollupOptions: {
       input: {
