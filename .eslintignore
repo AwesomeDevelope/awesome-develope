@@ -1,0 +1,6 @@
+.vscode
+dist
+node_modules
+vite.config.ts
+postcss.config.js
+plugin-html-inject.js

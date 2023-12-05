@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 68px;
+  background-color: azure;
+}
+
+.nav-list {
+  display: flex;
+  gap: 30px;
+}

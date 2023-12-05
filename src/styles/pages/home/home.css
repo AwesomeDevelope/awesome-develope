@@ -1,0 +1,8 @@
+@import 'the-new-css-reset/css/reset.css';
+
+@import '../../components/header.css';
+@import '../../components/footer.css';
+
+@import './consultation/consultation.css';
+@import './development-stages/development-stages.css';
+@import './hero/hero.css';

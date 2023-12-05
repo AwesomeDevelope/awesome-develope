@@ -1,0 +1,7 @@
+@import 'the-new-css-reset/css/reset.css';
+
+@import '../../components/header.css';
+@import '../../components/footer.css';
+
+@import './contacts/contacts.css';
+@import './price/price.css';
