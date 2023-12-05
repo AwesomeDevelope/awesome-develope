@@ -6,7 +6,7 @@ import injectHTML from './plugin-html-inject';
 
 export default defineConfig({
   publicDir: 'public',
-  root: './',
+  root: 'src',
   build: {
     rollupOptions: {
       input: {
@@ -15,7 +15,7 @@ export default defineConfig({
         portfolio: resolve(__dirname, 'src/portfolio.html'),
       },
     },
-    outDir: 'dist',
+    outDir: '../dist',
   },
   plugins: [
     injectHTML(),
