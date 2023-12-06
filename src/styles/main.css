@@ -1,0 +1,9 @@
+@import 'the-new-css-reset/css/reset.css';
+
+/* Components */
+@import './components/header.css';
+@import './components/footer.css';
+
+/* Utils */
+@import './utils/container.css';
+@import './utils/reset.css';

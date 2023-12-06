@@ -1,7 +1,4 @@
-@import 'the-new-css-reset/css/reset.css';
-
-@import '../../components/header.css';
-@import '../../components/footer.css';
+@import '../../main.css';
 
 @import './projects/projects.css';
 @import './team/team.css';
