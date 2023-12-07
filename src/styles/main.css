@@ -5,5 +5,7 @@
 @import './components/footer.css';
 
 /* Utils */
+@import './utils/common.css';
 @import './utils/container.css';
 @import './utils/reset.css';
+@import './utils/visually-hidden.css';

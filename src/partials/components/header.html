@@ -1,16 +1,52 @@
 <header class="header">
-  <div>LOGO</div>
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a class="nav-link" href="./index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./contacts.html">Contacts</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./portfolio.html">Portfolio</a>
-      </li>
-    </ul>
-  </nav>
+  <div class="container header-wrapper">
+    <a href="./index.html" class="logo">Awesome Web </a>
+
+    <nav class="header-nav">
+      <ul class="header-nav-list">
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="./contacts.html">Contacts</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="./portfolio.html">Portfolio</a>
+        </li>
+      </ul>
+    </nav>
+
+    <button class="btn-mobile-menu-js" type="button">
+      <svg class="icon-burger" width="32" height="32">
+        <use href="../../img/sprite/sprite.svg#btn-burger-menu"></use>
+      </svg>
+    </button>
+  </div>
+
+  <div class="mobile-menu is-hidden">
+    <div class="mobile-menu-content is-hidden">
+      <a class="mobile-menu-logo-link" href="./index.html">
+        <svg class="mobile-menu-icon-logo" width="32" height="32">
+          <use href="../../img/sprite/sprite.svg#instagram"></use>
+        </svg>
+      </a>
+      <nav class="mobile-menu-nav">
+        <ul class="mobile-menu-nav-list">
+          <li class="mobile-menu-nav-item">
+            <a class="mobile-menu-nav-link" href="../../index.html">Home</a>
+          </li>
+          <li class="mobile-menu-nav-item">
+            <a class="mobile-menu-nav-link" href="../../contacts.html"
+              >Contacts</a
+            >
+          </li>
+          <li class="mobile-menu-nav-item">
+            <a class="mobile-menu-nav-link" href="../../portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
 </header>
