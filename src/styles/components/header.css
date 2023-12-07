@@ -9,8 +9,7 @@
   justify-content: space-around;
   height: 68px;
   color: white;
-  /* border-bottom: 5px solid rgba(255, 255, 255, 0.1); */
-  border-bottom: 3px solid red;
+  border-bottom: 5px solid rgba(255, 255, 255, 0.1);
 }
 
 .header-nav {
@@ -32,7 +31,7 @@
   line-height: 1.16;
 
   color: #ffffff99;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color $fast $cubic;
 
   &:hover,
   &:focus {
@@ -48,10 +47,10 @@
   right: 0;
   width: 0%;
   height: 4px;
-  background-color: #558fff;
+  background-color: $accent-color;
   border-radius: 2px;
 
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all $fast $cubic;
 }
 
 .header-nav-link:hover::after {
@@ -61,7 +60,7 @@
   bottom: -15px;
   width: 100%;
   height: 4px;
-  background-color: #558fff;
+  background-color: $accent-color;
   border-radius: 2px;
 }
 
@@ -125,7 +124,7 @@
   text-transform: uppercase;
 
   color: white;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color $fast $cubic;
 
   &:hover,
   &:focus {

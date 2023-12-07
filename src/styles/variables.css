@@ -1,0 +1,8 @@
+//colors//
+$accent-color: #558fff;
+
+// transition //
+$slow: 1000ms;
+$medium: 500ms;
+$fast: 250ms;
+$cubic: cubic-bezier(0.4, 0, 0.2, 1);
