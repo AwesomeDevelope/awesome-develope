@@ -24,9 +24,9 @@
     "lint": "eslint --ext .js ./",
     "lint:fix": "eslint --fix --ext .js ./",
     "format": "prettier --write \"./**/*.{js,jsx,json,css}\"",
-    "build": "vite build",
+    "build": "vite build --emptyOutDir",
     "preview": "vite preview --open",
-    "buildpreview": "vite build && vite preview --open"
+    "buildpreview": "vite build --emptyOutDir && vite preview --open"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",

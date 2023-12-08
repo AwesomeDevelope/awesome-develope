@@ -32,8 +32,22 @@
     }
   },
   "rules": {
-    "prettier/prettier": "warn",
+    "global-require": "off",
+    "prettier/prettier": [
+      "warn",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "no-use-before-define": [
+      "error",
+      {
+        "functions": false
+      }
+    ],
+    "no-unused-vars": "warn",
     "no-console": "off",
+    "prefer-const": "off",
     "import/no-extraneous-dependencies": [
       "error",
       {
